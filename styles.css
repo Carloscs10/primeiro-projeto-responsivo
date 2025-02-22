@@ -1,0 +1,269 @@
+* {
+
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+.Big-box {
+   width: 100vw;
+   height: 100vh;
+}
+    
+    
+
+
+
+.Box-medium-one {
+    
+margin-top: 47px;
+display: inline-block;
+width: 60%;
+height: 100vh;
+
+}
+
+
+.Image-third {
+    margin-top: -500PX;
+    display: inline-block;
+    width: 60%;
+    height: 100vh;
+
+}
+
+
+
+
+
+.Box-measuring-two {
+    margin-left: 98px;
+    margin-top: -250px;
+    display: inline-block;
+    width: 40%;
+    height: 100vh; 
+    position: absolute;
+}
+
+.Link {
+    
+    margin-top: 47px;
+    margin-left: 32px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.875px;
+    color: #17233D;
+
+}
+
+
+.Button-First {
+    margin-left: 32px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    width: 124px;
+    height: 51px;
+    flex-shrink: 0;
+
+}
+
+
+.Logo {
+    
+ 
+    margin-top: 153px;
+    margin-left: 140px;
+    width: 530px;
+    height: 480px;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+
+h1 {
+
+    color: #161A49;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 82px;  
+    letter-spacing: 0.596px;
+
+
+}
+
+p {
+
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;  
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.Button-second {
+
+
+   
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    background: transparent;
+    border: none;
+
+}
+
+@media screen and (max-width: 940px ) {
+  
+
+
+.Big-box {
+    
+    
+   
+    flex-direction: column;
+    text-align: center;
+    display: block;
+}
+
+
+
+ 
+.Link {
+    
+    display: none;
+}
+
+
+.Button-First {
+
+    width: 91px;
+    height: 31px;
+    flex-shrink: 0;
+    margin-left: 190px;
+    margin-top: 140px;
+ }
+
+    
+
+
+ 
+  
+.Image-third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+} 
+
+
+.Box-measuring-two {
+    
+    display: flex;
+    flex-direction: column;  /* Organiza os itens em uma coluna */
+    justify-content: center; /* Alinha o conteúdo verticalmente */
+    align-items: center;     /* Alinha o conteúdo horizontalmente */
+    height: 100vh;           /* Altura total da tela */
+    text-align: center;    
+     
+    top: 300px;
+
+}
+
+
+
+
+
+
+.Logo {
+    margin-top: -120px;
+    width: 400px;
+    bottom: -500px;
+     
+
+    width: 279.921px;
+    height: 268.932px;
+    flex-shrink: 0;
+
+
+
+    
+
+}
+
+
+
+
+
+
+
+
+h1 {
+
+    width: 278px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;  
+    letter-spacing: 0.596px;
+    color: #161A49;
+     
+    
+
+
+
+     
+
+}
+  
+
+p {
+ 
+    width: 304px;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;  
+    letter-spacing: 0.5px;
+    color: #4B505A;
+
+}
+
+
+
+.Button-second {
+
+width: 120px;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1px;
+color: #6FBF44;
+
+
+  
+
+
+
+
+
+
+}
+
+
+    }
